@@ -18,7 +18,7 @@ var fs = require('fs');
  */
 function computeSha1(filePath, res, next) {
 
-  var crypto = require('crypto')
+  var crypto = require('crypto'),
     hash = crypto.createHash('sha1'),
     stream = fs.createReadStream(filePath);
 
