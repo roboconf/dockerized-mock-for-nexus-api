@@ -1,0 +1,36 @@
+{
+  "name": "dockerized-mock-for-nexus-api",
+  "version": "1.0.0",
+  "description": "A Docker image with a (partial) mock implementation of Nexus Core API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/roboconf/dockerized-mock-for-nexus-api.git"
+  },
+  "keywords": [
+    "Nexus",
+    "Maven",
+    "Mock"
+  ],
+  "author": "Linagora",
+  "contributors": [
+    {
+      "name": "Vincent Zurczak"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/roboconf/dockerized-mock-for-nexus-api/issues"
+  },
+  "homepage": "https://github.com/roboconf/dockerized-mock-for-nexus-api",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "restify": "^4.3.0"
+  }
+}
