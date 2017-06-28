@@ -27,7 +27,7 @@ docker build -t roboconf/mock-for-nexus-api .
 # The volume is read-only.
 # Make the API available on the 9090 port.
 # The container will run in background and be deleted automatically once stopped.
-docker run -d --rm -p 9090:9090 -v /home/vzurczak/.m2:/home/maven:ro roboconf/mock-for-nexus-api
+docker run -d --rm -p 9090:9090 -v /home/me/.m2:/home/maven:ro roboconf/mock-for-nexus-api
 ```
 
 ## Access the API
